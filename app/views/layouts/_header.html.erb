@@ -1,0 +1,40 @@
+<header class="container-fluid">
+  <div class="jumbotron">
+
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+
+        <!--Navbar's collapsable toggle button for smaller devices-->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <%= link_to "Social Event Planner", root_path, class: "navbar-brand" %>   <!--Home-->
+        </div>
+
+        <!--Navbar's list-->
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><%= link_to "About",          about_path %></li>                <!--About-->
+            <li><%= link_to "Events",         events_path %></li>               <!--Events-->
+            <li><%= link_to "Student Groups", student_groups_path %></li>       <!--Student Groups-->
+            <li><%= link_to "Calendar",       calendar_path %></li>             <!--Calendar-->
+            <li><%= link_to "Contact Us",     contact_path %></li>              <!--Contacts-->
+          </ul>
+
+          <!--signup and login glyphicons on right of navbar-->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>       <!--Sign Up-->
+
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>       <!--Login-->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Main Header-->
+    <h1 id="main_header" class="font-effect-shadow-multiple">Social Event Planner</h1>
+  </div><!--jumbotron end div-->
+</header>

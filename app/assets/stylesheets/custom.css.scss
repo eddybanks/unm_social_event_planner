@@ -1,2 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main_header{
+    font-family: 'Indie Flower', cursive;
+}
