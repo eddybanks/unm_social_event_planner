@@ -6,13 +6,13 @@ Rails.application.routes.draw do
 
   get 'events'          =>  'static_pages#events'
 
-  get 'student_groups'  =>  'static_pages#student_groups'
+  get 'groups'          =>  'static_pages#groups'
 
   get 'calendar'        =>  'static_pages#calendar'
 
   get 'contact'         =>  'static_pages#contact'
 
-  get 'profile_page'    =>  'static_pages#profile_page'
+  get 'profile'         =>  'static_pages#profile'
 
   get 'signup'          =>  'users#new'
 end

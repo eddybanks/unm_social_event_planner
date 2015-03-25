@@ -16,8 +16,8 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get student_groups" do
-    get :student_groups
+  test "should get groups" do
+    get :groups
     assert_response :success
   end
 
@@ -31,8 +31,8 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get profile_page" do
-    get :profile_page
+  test "should get profile" do
+    get :profile
     assert_response :success
   end
 
