@@ -1,11 +1,86 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Kalam);
+@import url(http://fonts.googleapis.com/css?family=Fredoka+One);
 
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-#main_header{
-    font-family: 'Indie Flower', cursive;
+h1{
+  font-family: 'Lobster', cursive;
+  margin: 40px 60px;
+  margin-bottom: 15px;
+	font-size: 45px;
+}
+
+h2{
+  font-family: 'Kalam', cursive;
+	font-size: 20px;
+  margin: 40px 40px;
+}
+
+h3{
+  font-family: 'Kalam';
+}
+
+/* header */
+header{
+  &#main_header{
+    margin-top: 30px;
+    min-height: 650px;
+    background-color: rgba(120,120,120,0);
+    width: 100%;
+  }
+}
+
+.div-trans {
+padding: 5px 20px 5px;
+background-color: rgba(0, 0, 0, 0.2);
+min-height: 300px;
+margin: 30px;
+color: #fff;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 30px;
+  button {
+    background-color: rgba(120,20,40,0.2);
+  }
+}
+#home .form-control {
+background-color:transparent;
+}
+
+/* slide */
+.carousel-indicators {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -50%;
+  text-align: center;
+  list-style: none;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #b7cb1b;
 }

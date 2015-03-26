@@ -15,4 +15,7 @@ Rails.application.routes.draw do
   get 'profile'         =>  'static_pages#profile'
 
   get 'signup'          =>  'users#new'
+
+  devise_for :admins
+  devise_for :users
 end
