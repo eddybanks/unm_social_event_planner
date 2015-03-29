@@ -8,7 +8,7 @@ class StaticPagesController < ApplicationController
   def events
   end
 
-  def student_groups
+  def groups
   end
 
   def calendar
@@ -17,6 +17,6 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
-  def profile_page
+  def profile
   end
 end

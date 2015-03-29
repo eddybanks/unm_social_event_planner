@@ -9,31 +9,61 @@
   padding: 0;
 }
 
+body{
+  background: rgba(0,0,0,0.5);
+}
+
 h1{
-  font-family: 'Lobster', cursive;
+  font-family: 'Fredoka One';
   margin: 40px 60px;
   margin-bottom: 15px;
 	font-size: 45px;
+  color: #ffc;
+  a.hover{
+    decoration: none;
+    font-style: none;
+    color: #ffc;
+  }
 }
 
 h2{
   font-family: 'Kalam', cursive;
-	font-size: 20px;
-  margin: 40px 40px;
+	font-size: 30px;
+  margin: 40px 60px;
+  color: #ffc;
 }
 
 h3{
-  font-family: 'Kalam';
+  font-family: 'Lobster', cursive;
+	font-size: 15px;
+  color: #ffc;
 }
 
 /* header */
-header{
-  &#main_header{
-    margin-top: 30px;
-    min-height: 650px;
-    background-color: rgba(120,120,120,0);
-    width: 100%;
-  }
+.lg_header{
+  margin-top: 30px;
+  min-height: 650px;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+}
+
+.sm_header{
+  margin-top: 30px;
+  min-height: 250px;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+}
+
+/* navbar */
+nav{
+  background-color: #f72;
+}
+
+/* sections */
+.md_section{
+  min-height: 550px;
+  background-color: rgba(0,0,0,0.3);
+  width: 100%;
 }
 
 .div-trans {
@@ -52,6 +82,11 @@ margin-bottom: 30px;
 }
 #home .form-control {
 background-color:transparent;
+}
+
+#new_user_form{
+  margin-top: 40px;
+  background: rgba(40,40,0,0.6);
 }
 
 /* slide */
@@ -83,4 +118,34 @@ background-color:transparent;
   height: 12px;
   margin: 0;
   background-color: #b7cb1b;
+}
+
+
+.fb-profile img.fb-image-lg{
+    z-index: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fb-image-profile
+{
+    margin: -90px 10px 0px 50px;
+    z-index: 9;
+    width: 20%;
+}
+
+@media (max-width:768px)
+{
+
+.fb-profile-text>h1{
+    font-weight: 700;
+    font-size:16px;
+}
+
+.fb-image-profile
+{
+    margin: -45px 10px 0px 25px;
+    z-index: 9;
+    width: 20%;
+}
 }
