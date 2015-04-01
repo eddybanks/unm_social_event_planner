@@ -25,6 +25,7 @@ module SocialEventPlanner
 
     config.assets.initialize_on_precompile = false
     config.rubycas.cas_base_url = 'https://login.unm.edu/cas'
+    config.assets.precompile += ['application-print.css']
 
   end
 end

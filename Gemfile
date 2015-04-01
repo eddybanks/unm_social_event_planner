@@ -11,9 +11,12 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'devise'
 gem 'simple_form'
 gem "rubycas-client-rails", git: "git://github.com/rubycas/rubycas-client-rails.git"
+gem 'fullcalendar-rails'
+gem 'momentjs-rails'
+gem 'gmaps4rails'
+gem 'underscore-rails', '~> 1.8.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
